@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 ob体育 · 站点说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(145deg, #fce9d2 0%, #f3d8b8 50%, #ecc9a0 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.2rem;
+      line-height: 1.7;
+      color: #2e2a24;
+    }
+    .card {
+      max-width: 820px;
+      width: 100%;
+      background: #fffcf7;
+      border-radius: 40px;
+      padding: 3rem 2.8rem 3.2rem;
+      box-shadow: 0 20px 45px rgba(140, 90, 50, 0.18), 0 6px 14px rgba(100, 60, 30, 0.08);
+      transition: box-shadow 0.25s ease;
+    }
+    @media (max-width: 600px) {
+      .card {
+        padding: 2rem 1.5rem 2.2rem;
+        border-radius: 28px;
+      }
+    }
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #4f3723;
+      margin-bottom: 0.15rem;
+      line-height: 1.2;
+      border-left: 6px solid #d9b382;
+      padding-left: 1rem;
+    }
+    .subhead {
+      font-size: 1rem;
+      color: #8b725a;
+      margin: 0.6rem 0 1.6rem 1.6rem;
+      border-bottom: 1px dashed #e6d5be;
+      padding-bottom: 0.6rem;
+    }
+    p {
+      margin: 1.2rem 0;
+    }
+    .intro {
+      font-size: 1.08rem;
+      background: #faf3ea;
+      padding: 1.2rem 1.6rem;
+      border-radius: 24px;
+      color: #3d3126;
+    }
+    .intro strong {
+      color: #7a5b3d;
+    }
+    .highlight-link {
+      background: #efe2d2;
+      border-radius: 40px;
+      padding: 0.25rem 0.9rem 0.25rem 0.9rem;
+      display: inline-block;
+      font-weight: 500;
+      transition: background 0.2s, box-shadow 0.2s;
+      white-space: nowrap;
+    }
+    .highlight-link a {
+      text-decoration: none;
+      color: #6b4d31;
+      font-weight: 600;
+    }
+    .highlight-link:hover {
+      background: #e5d1b9;
+      box-shadow: 0 2px 8px rgba(130, 80, 40, 0.15);
+    }
+    blockquote {
+      margin: 1.8rem 0 1.2rem;
+      padding: 1rem 1.8rem;
+      background: #f7f0e7;
+      border-radius: 30px;
+      border-left: 5px solid #ccaa81;
+      font-style: normal;
+      color: #4d3d2d;
+      font-size: 0.98rem;
+    }
+    blockquote::before {
+      content: "💡 ";
+      font-size: 1.2rem;
+    }
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin: 1.8rem 0 1rem;
+    }
+    .feature-item {
+      flex: 1 1 200px;
+      background: #faf3ea;
+      padding: 1.2rem 1.2rem 0.9rem;
+      border-radius: 28px;
+      box-shadow: 0 2px 6px rgba(140, 90, 50, 0.06);
+    }
+    .feature-item h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #5c402b;
+      margin-bottom: 0.3rem;
+    }
+    .feature-item p {
+      font-size: 0.92rem;
+      margin: 0.2rem 0 0;
+      color: #5a4b3b;
+    }
+    .faq-section {
+      margin: 2.2rem 0 1.4rem;
+      padding-top: 0.8rem;
+      border-top: 2px solid #eadccc;
+    }
+    .faq-item {
+      margin: 0.9rem 0;
+    }
+    .faq-q {
+      font-weight: 600;
+      color: #4f3723;
+    }
+    .faq-a {
+      margin-left: 1rem;
+      padding-left: 0.6rem;
+      border-left: 2px solid #dccab4;
+      color: #4d3e30;
+    }
+    .closing {
+      margin-top: 2rem;
+      padding: 1rem 0 0.2rem;
+      border-top: 1px solid #ebe0d2;
+      font-size: 0.98rem;
+      color: #6a5b4b;
+      text-align: right;
+    }
+    .closing span {
+      background: #f1e5d7;
+      padding: 0.2rem 0.8rem;
+      border-radius: 40px;
+      font-size: 0.9rem;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #eadbc9;
+      margin: 1.3rem 0;
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <h1>ob体育 · 站点介绍与可信说明</h1>
+  <div class="subhead">一份认真整理的介绍，便于了解平台定位与信息背景</div>
+
+  <p class="intro">
+    <strong>ob体育</strong> 是一个综合性体育资讯与互动平台，面向关注赛事、运动数据及体育文化的用户。<br>
+    本站主要提供赛事动态、数据参考以及社区交流内容。以下从几个方面对站点进行说明。
+  </p>
+
+  <p>
+    作为体育内容聚合入口，<span class="highlight-link"><a href="https://portal-obsport.com">ob体育</a></span> 在信息筛选与呈现上力求清晰易懂。平台内容涵盖足球、篮球、网球等多个主流项目，同时也关注一些新兴运动——目的是让不同兴趣方向的访问者都能找到有价值的参考。
+  </p>
+
+  <blockquote>
+    提示：任何线上平台都应结合自身判断使用。建议初次访问时先浏览几个板块，再根据实际需求决定如何利用内容。
+  </blockquote>
+
+  <div class="feature-grid">
+    <div class="feature-item">
+      <h3>📋 内容结构</h3>
+      <p>赛事解读、数据简报、专题整理，保持适度的更新节奏，避免信息过载。</p>
+    </div>
+    <div class="feature-item">
+      <h3>🔍 呈现方式</h3>
+      <p>以文章与列表为主，辅以关键数据标记，方便快速定位感兴趣的部分。</p>
+    </div>
+    <div class="feature-item">
+      <h3>⚖️ 参考价值</h3>
+      <p>内容基于公开赛事信息与统计，不构成专业投注建议，仅作为兴趣参考。</p>
+    </div>
+  </div>
+
+  <p>
+    在日常使用场景中，无论是跟踪联赛进度、浏览赛后分析，还是了解某项运动的基本规则，<a href="https://portal-obsport.com" style="color:#7a5b3d;text-decoration:underline;font-weight:500;">ob体育</a> 都能提供一个相对集中的信息环境。页面设计侧重可读性，减少了复杂交互，让信息本身更突出。
+  </p>
+
+  <div class="faq-section">
+    <div class="faq-item">
+      <div class="faq-q">❓ 内容来源是否可靠？</div>
+      <div class="faq-a">平台信息主要整合自公开赛事数据与主流体育媒体，每个板块都附有数据采集时间。但体育信息具有时效性，建议结合多方渠道核实关键数据。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">❓ 是否需要注册或付费？</div>
+      <div class="faq-a">当前访问 <a href="https://portal-obsport.com" style="color:#6b4d31;text-decoration:underline;">ob体育</a> 无需注册即可阅读大部分内容。部分互动功能可能会涉及账号体系，但基础阅读无门槛。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">❓ 和同类站点有何不同？</div>
+      <div class="faq-a">更侧重于信息整理与简洁呈现，减少广告干扰，内容分类贴近一般体育爱好者的浏览习惯。不刻意追求热点，保持相对稳定的更新节奏。</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <p>
+    总而言之，<strong>ob体育</strong> 适合那些希望快速获取体育资讯、又不愿被繁杂信息裹挟的用户。平台目前仍在迭代内容结构，如果你对某个项目或赛事有特别兴趣，也可以通过站内导航进一步探索。
+  </p>
+
+  <div class="closing">
+    <span>方便时，可前往 <a href="https://portal-obsport.com" style="color:#5a3f2b;text-decoration:none;font-weight:600;">ob体育</a> 直接浏览</span>
+  </div>
+</div>
+</body>
+</html>
